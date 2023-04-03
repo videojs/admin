@@ -1,0 +1,26 @@
+{
+  "name": "@videojs/admin",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Documentation pertaining to the overall Video.js organization and all projects contained within",
+  "main": "index.js",
+  "scripts": {
+    "build": "doctoc --notitle *.md",
+    "test": "exit 0",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/videojs/admin.git"
+  },
+  "author": "Brightcove, Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/videojs/admin/issues"
+  },
+  "homepage": "https://github.com/videojs/admin/blob/main/README.md",
+  "devDependencies": {
+    "doctoc": "^2.2.1",
+    "husky": "^8.0.3"
+  }
+}
