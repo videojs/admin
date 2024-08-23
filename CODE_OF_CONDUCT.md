@@ -1,6 +1,6 @@
-# Video.js® Contributor Code of Conduct
+# Video.js® Code of Conduct
 
-Please note that projects within the Video.js organization are released with a Contributor Code of Conduct. By participating in any of these projects you agree to abide by its terms.
+Please note that projects within the Video.js organization are released with a Code of Conduct. By participating in any of these projects you agree to abide by its terms.
 
 ## Table of Contents
 
