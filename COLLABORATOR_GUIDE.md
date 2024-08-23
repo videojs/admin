@@ -53,7 +53,7 @@ There are labels that are useful to include on issues and PRs. A few of them are
 | good first issue         | Issue        | Marks as a good bug or enhancement for first time contributors to Video.js |
 | first-timers-only        | Issue        | Marks as a good bug or enhancement to be done by a newcomer to open source |
 | minor, patch, major      | PR           | Marks PR with the expected semver classification of the change             |
-| needs: LGTM              | PR           | Marks PR to be reviewed by a collaborator                                  |
+| needs: LGTM              | PR           | Marks PR to be reviewed by a collaborator (Looks Good To Me)               |
 | needs: more info         | Issue        | Marks as needing more information from the issue reporter                  |
 | needs: reduced test case | Issue        | Marks as needing a reduced test case from the issue reporter               |
 
@@ -287,7 +287,7 @@ git reset --hard upstream/main
 ## Video.js releases
 
 Releasing Video.js is partially automated through various scripts.
-To do a release, all you need is just write access to the repo!
+To do a release, all you need is write access to the repo!
 
 Releases in Video.js are done on npm and GitHub and eventually posted on the CDN.
 These are the instructions for the npm/GitHub releases.
@@ -322,7 +322,7 @@ Most common releases will be either `patch` or `minor`.
 
 It is also recommended you have a clean clone of Video.js for each release line you want to release.
 This is because different versions have different expectations for release process and have different dependencies.
-Plus, during development you could end up with a dirty repo, so, it just usually easier if you have a clean release repo.
+Plus, during development you could end up with a dirty repo, so, it's usually easier if you have a clean release repo.
 
 ```sh
 # for v8
@@ -333,7 +333,7 @@ git clone git@github.com:videojs/video.js.git videojs-7-release
 
 #### Current Video.js
 
-Make sure go to the main branch and grab the latest updates.
+Make sure you go to the main branch and grab the latest updates.
 
 ```sh
 git checkout main

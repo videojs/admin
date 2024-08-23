@@ -81,7 +81,7 @@ Community Collaborators are individuals from the community who make multiple sig
 
 These are nominated by existing Collaborators and their nominations are discussed during the monthly TSC meeting.
 
-Community Collaborators who are inactive in the project for a period of 6 months or more are considered to have resigned their status and their access will be revoked.
+Community Collaborators who are inactive in the project for a period of one year or more are considered to have resigned their status and their access will be revoked.
 
 #### Core Collaborators
 

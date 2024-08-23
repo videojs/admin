@@ -13,6 +13,7 @@ So you want to help out? Great! There's a number of ways you can get involved.
   - [Requesting a Feature](#requesting-a-feature)
   - [Labels](#labels)
 - [Contributing code](#contributing-code)
+  - [Node.js](#nodejs)
   - [Building video.js locally](#building-videojs-locally)
     - [Forking and cloning the repository](#forking-and-cloning-the-repository)
     - [Installing local dependencies](#installing-local-dependencies)
@@ -37,7 +38,7 @@ So you want to help out? Great! There's a number of ways you can get involved.
 
 ## Other repositories where issues could be filed
 
-There's also other Video.js projects where you can help. (check the [video.js org](https://github.com/videojs) for an up-to-date list of projects)
+There are also other Video.js projects where you can help. (check the [Video.js org](https://github.com/videojs) for an up-to-date list of projects)
 
 * [Videojs.com](https://github.com/videojs/videojs.com)
 * [HLS](https://github.com/videojs/videojs-contrib-hls)
@@ -64,7 +65,7 @@ Guidelines for bug reports:
 1. Use the [GitHub issue search](https://github.com/videojs/video.js/issues) — check if the issue has already been reported.
 1. Check if the issue has already been fixed — try to reproduce it using the latest `main` branch in the repository.
 1. Isolate the problem — **create a [reduced test case](https://css-tricks.com/reduced-test-cases/)** with a live example. You can possibly use [this codepen template](https://codepen.io/gkatsev/pen/GwZegv?editors=1000#0) as a starting point -- don't forget to update it to the videojs version you use.
-1. Answer all questions in the [issue template][]. The questions in the issue template are designed to try and provide the maintainers with as much information possible to minimize back-and-forth to get the issue resolved.
+1. Answer all questions in the [issue template][issue template]. The questions in the issue template are designed to try and provide the maintainers with as much information possible to minimize back-and-forth to get the issue resolved.
 
 A good bug report should be as detailed as possible, so that others won't have to follow up for the essential details.
 
@@ -75,7 +76,7 @@ A good bug report should be as detailed as possible, so that others won't have t
 1. [Check the plugin list](https://videojs.com/plugins/) for any plugins that may already support the feature.
 1. [Search the issues](https://github.com/videojs/video.js/issues) for any previous requests for the same feature, and give a thumbs up or +1 on existing requests.
 1. If no previous requests exist, create a new issue. Please be as clear as possible about why the feature is needed and the intended use case.
-1. Once again, be as details as possible and follow the [issue template][]
+1. Once again, be as detailed as possible and follow the [issue template][issue template]
 
 **[Request a feature](https://github.com/videojs/video.js/issues/new)**
 
@@ -98,8 +99,9 @@ There are a few labels that might be added to your issue or PR by a maintainer. 
 
 To contribute code you'll need to be able to build a copy of Video.js and run tests locally. There are a few requirements before getting started.
 
-* Node.js
-  Video.js uses Node for build and test automation. Node is available for Windows, Mac OS X, Linux, and SunOS, as well as source code if that doesn't scare you. [Download and install Node.js](http://nodejs.org/download/)
+### Node.js
+
+Video.js uses Node.js for build and test automation. Node is available for Windows, Mac OS X, Linux, and SunOS, as well as source code if that doesn't scare you. [Download and install Node.js](http://nodejs.org/download/)
 
 ### Building video.js locally
 
