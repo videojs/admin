@@ -1,120 +1,120 @@
-# Video.js® Community Governance
+# Video.js Community Governance
 
-This document sets up the guidelines for ongoing governance and maintenance of Video.js.
+This document sets up the guidelines for ongoing governance and maintenance of Video.js itself and projects under the Video.js GitHub org.
 
 ## Table of Contents
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [Brightcove’s Position](#brightcoves-position)
-- [Shared Responsibility and the Technical Steering Committee](#shared-responsibility-and-the-technical-steering-committee)
-  - [Current TSC Members](#current-tsc-members)
-  - [Corporate Shepherd of the TSC](#corporate-shepherd-of-the-tsc)
+- [Technical Steering Committee (TSC)](#technical-steering-committee-tsc)
+  - [Role and Responsibilities](#role-and-responsibilities)
+  - [Membership](#membership)
+    - [Current TSC Members](#current-tsc-members)
+    - [TSC Members Emeritus](#tsc-members-emeritus)
+  - [TSC Meetings](#tsc-meetings)
+- [Corporate Shepherd](#corporate-shepherd)
+  - [Benefits](#benefits)
+  - [Responsibilities](#responsibilities)
+  - [History](#history)
 - [Collaborators](#collaborators)
+  - [Privileges](#privileges)
   - [Collaborator Meetings](#collaborator-meetings)
   - [Types of Collaborator](#types-of-collaborator)
     - [Community Collaborators](#community-collaborators)
     - [Core Collaborators](#core-collaborators)
 - [Contributors](#contributors)
-- [TSC Membership](#tsc-membership)
-- [TSC Meetings](#tsc-meetings)
+- [Consensus Seeking Process](#consensus-seeking-process)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## Brightcove’s Position
+## Technical Steering Committee (TSC)
 
-Brightcove holds the Video.js trademark and has been the maintainer and corporate steward of the project since 2012. Video.js is the core of the Brightcove Player and the Brightcove Web and Smart TV SDK. As such, its maintenance is critical to the company.
+The Technical Steering Committee (TSC) defines the overall technical direction of Video.js, representing the broader community of users and contributors.
 
-However, Brightcove acknowledges that the scope of Video.js is broader than its commercial interests. Many companies and developers around the globe use Video.js, so the company recognizes the value of a governance model that embraces collaboration with the wider community.
+### Role and Responsibilities
 
-Brightcove welcomes the expertise and passion of individuals from outside the company who donate their time to help make Video.js the best open source web media player available.
+The TSC has final authority over the project, including:
 
-## Shared Responsibility and the Technical Steering Committee
+- Technical direction
+- Decide on items that lack consensus among Collaborators.
+- Project governance (this repository)
+- Maintaing Collaborators list
 
-The Video.js project is jointly governed by Brightcove and a Technical Steering Committee (TSC). Responsibilities are divided in the following way:
+### Membership
 
-* Brightcove’s responsibility is to provide logistical and administrative control of the project as well as staffing the day-to-day maintenance of Video.js. Brightcove employee(s) collaborate with the TSC in the Corporate Shepherd role.
-* The TSC’s responsibility is to discuss, debate, and define the overall technical direction of the project by consensus. In large part, this means representing the perspective of users who are external to Brightcove.
+- **Invitation:** Long-term contributors showing dedication may be invited by the TSC.
+- **Termination:** Members may resign voluntarily, be removed by the TSC, or are considered resigned after one year of inactivity.
+- **Employer Balance:** No more than half of the TSC may be affiliated with the same organization. If exceeded, members must be added or removed to restore balance.
 
-Initial membership invitations to the TSC were given to founders of the project and individuals who had been long-term active contributors to Video.js and who had significant experience with the management of the project.
+#### Current TSC Members
 
-Membership is expected to evolve over time according to the needs of the project and the contributions of individuals.
+- [Garrett Singer](https://github.com/gesinger)
+- [Gary Katsevman](https://github.com/gkatsev)
+- [Steve Heffernan](https://github.com/heff) (Mux)
+- [Matt McClure](https://github.com/mmcc) (Mux)
 
-### Current TSC Members
+#### TSC Members Emeritus
 
-* [Garrett Singer](https://github.com/gesinger) (LinkedIn)
-* [Gary Katsevman](https://github.com/gkatsev)
-* [Matt McClure](https://github.com/mmcc) (Mux)
-* [Steve Heffernan](https://github.com/heff) (Mux)
+- [Ben Clifford](https://github.com/mister-ben) (Brightcove)
+- [Pat O'Neill](https://github.com/misteroneill) (Brightcove)
 
+### TSC Meetings
 
-### TSC Members Emeritus
-* [Ben Clifford](https://github.com/mister-ben) (Brightcove)
-* [Pat O’Neill](https://github.com/misteroneill) (Brightcove, poneill@brightcove.com)
+The TSC meets quarterly via video call. Agendas include contribution policies, membership changes, and technical decisions not resolved by Collaborators.
 
-### Corporate Shepherd of the TSC
+It's not intended for the TSC meetings to review each PR but rather review issues that consensus-seeking has not succeeded.
 
-In recognition of its long-term commitment to Video.js, Brightcove holds the special distinction of Corporate Shepherd for Video.js, which involves:
+## Corporate Shepherd
 
-* Brightcove occupies a minimum of one permanent seat on the TSC, reserved for an employee who actively contributes to the project.
-* Brightcove is prominently acknowledged as Corporate Shepherd on the Video.js website.
-* Should the TSC be unable to reach consensus on a topic, Brightcove will settle the question at hand.
+The Corporate Shepherd is the organization making the most significant ongoing investment—financial, staffing, or infrastructure—in Video.js. Any change to the Corporate Shepherd must be approved by the TSC.
+
+### Benefits
+
+- Prominent acknowledgment on the Video.js website and in official project communications.
+- Right to promote itself as the project's primary sponsor and contributor.
+
+### Responsibilities
+
+- Staff and coordinate day-to-day maintenance of Video.js.
+- Build and maintain the Video.js marketing website.
+- Provide logistical, administrative, and infrastructure support for releases and community events.
+
+### History
+
+- **Zencoder:** 2010–2012
+- **Brightcove:** 2013–2025
+- **Mux:** 2025–present
 
 ## Collaborators
 
-The GitHub repositories in the Video.js organization are maintained by Brightcove and the TSC. Additional Collaborators are added and removed by Brightcove and the TSC on an ongoing basis. All TSC members are considered Collaborators implicitly.
+Collaborators are individuals granted access to the Video.js GitHub organization repositories. They work closely with the Corporate Shepherd and the TSC to maintain and advance the project. Collaborator status is granted or revoked by the TSC. All TSC members are Collaborators by default.
 
-*All* Collaborators have the following permissions:
+### Privileges
 
-* Approve pull requests
-* Merge pull requests
-* Push new tags/releases
+- Approve pull requests
+- Merge pull requests
+- Push new tags/releases
+- Add items to the TSC agenda
 
 ### Collaborator Meetings
 
-Collaborators meet monthly on an optional video call, which is where the strategic and tactical direction of the project is discussed and consensus is built.
+Collaborators meet monthly via video call to discuss strategic direction, review progress, and build consensus on ongoing work.
 
 ### Types of Collaborator
 
-There are two types of Collaborator. A guide for Collaborators of both types is maintained in the [Video.js Collaborator Guide](./COLLABORATOR_GUIDE.md). They are distinguished as follows:
-
 #### Community Collaborators
 
-Community Collaborators are individuals from the community who make multiple significant and valuable contributions to Video.js.
-
-These are nominated by existing Collaborators and their nominations are discussed during the monthly TSC meeting.
-
-Community Collaborators who are inactive in the project for a period of one year or more are considered to have resigned their status and their access will be revoked.
+Community Contributors nominated by existing Collaborators based on multiple significant contributions. Nominations are reviewed at the following TSC meeting, or on an ad-hoc basis.
 
 #### Core Collaborators
 
-Core Collaborators are those employees of Brightcove for whom their role involves Video.js collaboration.
-
-Because these individuals’ employment involves Video.js contribution, this status is automatic and persists throughout the duration of their employment, regardless of contribution level.
-
-Core Collaborators who leave Brightcove automatically become Community Collaborators.
+Employees of the Corporate Shepherd whose job functions include Video.js collaboration. Status persists throughout their employment; upon departure, they transition to Community Collaborator status.
 
 ## Contributors
 
-Anyone who makes (or wishes to make) a contribution of any significance through a code patch is considered a Contributor.
+Contributors are individuals who submit substantial code patches or documentation improvements. The full list of Contributors is maintained automatically via GitHub in each repository. For guidelines on contributing, see the [Video.js Contributor Guide](https://github.com/videojs/video.js/blob/main/CONTRIBUTING.md).
 
-The full list of Contributors is provided by GitHub in each repository.
+## Consensus Seeking Process
 
-A guide for Contributors is maintained in the [Video.js Contributor Guide](https://github.com/videojs/video.js/blob/main/CONTRIBUTING.md).
-
-## TSC Membership
-
-Collaborators who, over multiple years, show a long-term dedication to maintaining and improving Video.js may be considered for TSC membership, should the TSC see a need for their expertise or for balance in its membership.
-
-The TSC may add members by TSC consensus. A TSC member may be removed from the TSC by voluntary resignation or by TSC consensus. A TSC member who does not participate in TSC proceedings (without due cause) for a period of *one year* will be considered to have resigned.
-
-No more than half of the TSC members may be employed by the same company - *including Brightcove*. If a situation arises where more than half of the TSC membership shares an employer, then the situation must be remedied by the resignation or removal of one or more TSC members affiliated with the over-represented employer - or the addition of new TSC members from other employers.
-
-## TSC Meetings
-
-The TSC meets quarterly on a video call.
-
-Items are added to the TSC agenda which include contribution policy, TSC membership, or technical decisions that fail to reach consensus in the Collaborators group.
-
-The TSC prefers to leave most technical consensus building to the Collaborators group, but is prepared to act as a decision making body as needed.
+The TSC follows a [consensus-seeking model]https://en.wikipedia.org/wiki/Consensus_decision-making) for decision-making.
