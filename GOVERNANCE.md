@@ -43,11 +43,15 @@ Membership is expected to evolve over time according to the needs of the project
 
 ### Current TSC Members
 
+* [Garrett Singer](https://github.com/gesinger) (LinkedIn)
+* [Gary Katsevman](https://github.com/gkatsev)
+* [Matt McClure](https://github.com/mmcc) (Mux)
+* [Steve Heffernan](https://github.com/heff) (Mux)
+
+
+### TSC Members Emeritus
 * [Ben Clifford](https://github.com/mister-ben) (Brightcove)
 * [Pat O’Neill](https://github.com/misteroneill) (Brightcove, poneill@brightcove.com)
-* [Garrett Singer](https://github.com/gesinger) (LinkedIn)
-* [Steve Heffernan](https://github.com/heff) (Mux)
-* [Gary Katsevman](https://github.com/gkatsev) (Peacock)
 
 ### Corporate Shepherd of the TSC
 
