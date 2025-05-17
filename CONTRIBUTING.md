@@ -1,6 +1,6 @@
 # Video.js® Contributor Guide
 
-So you want to help out? Great! There's a number of ways you can get involved.
+Thanks for your interest in contributing to Video.js! Whether you're here to improve code, fix a bug, or enhance documentation — we welcome your help.
 
 ## Table of Contents
 
@@ -97,7 +97,15 @@ There are a few labels that might be added to your issue or PR by a maintainer. 
 
 ## Contributing code
 
-To contribute code you'll need to be able to build a copy of Video.js and run tests locally. There are a few requirements before getting started.
+Improving documentation is a valuable way to help the project, especially for new users and contributors. You can:
+
+- Fix typos or outdated information in README or this guide.
+- Add steps or clarifications to help others understand the setup and development process.
+- Translate or simplify parts of the docs for better accessibility.
+
+To contribute documentation, follow the same process as code contributions: fork the repository, create a branch, make your edits, and open a pull request.
+
+You'll need to be able to build a copy of Video.js and run tests locally. There are a few requirements before getting started.
 
 ### Node.js
 
@@ -107,7 +115,8 @@ Video.js uses Node.js for build and test automation. Node is available for Windo
 
 #### Forking and cloning the repository
 
-First, [fork](http://help.github.com/fork-a-repo/) the video.js git repository. At the top of every GitHub page, there is a Fork button. Click it, and the forking process will copy Video.js into your own GitHub account.
+First, [fork](http://help.github.com/fork-a-repo/) the video.js git repository by clicking the **Fork** button on the top-right of the [project page](https://github.com/videojs/video.js).
+At the top of every GitHub page, there is a Fork button. Click it, and the forking process will copy Video.js into your own GitHub account.
 
 Clone your fork of the repo into your code directory
 
@@ -290,6 +299,7 @@ git push origin my-branch
 ```
 
 Then go to the [repo page](https://github.com/videojs/video.js) and click the "Pull Request" button and fill out the [pull request template](/.github/PULL_REQUEST_TEMPLATE.md)
+> If your pull request is for documentation only (e.g., changes to README or this guide), please mention that in the PR title or description — it helps maintainers review it faster.
 
 ### Code Style Guide
 
